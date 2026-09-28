@@ -1,0 +1,41 @@
+# ===== Python 缓存 / 编译产物 =====
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+# ===== PyInstaller 打包产物 =====
+dist/
+build/
+# 工作路径（build.spec 里 --workpath _wp<版本> 生成）
+_wp*/
+*.exe
+# 单文件打包运行时的临时解压目录（如 _MEIxxxx）
+_MEI*/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 用户数据与日志（运行时生成，切勿上传） =====
+data/
+logs/
+*.json
+
+# ===== WorkBuddy 项目元数据 =====
+.workbuddy/
+
+# ===== 备份 / 临时文件 =====
+*.bak
+*.bak.*
+*.ORIGINAL_bak
+*bak0917*
+*~
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
